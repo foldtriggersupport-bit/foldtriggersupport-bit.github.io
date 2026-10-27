@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>FoldTrigger privacy policy</title>
+<style>
+  :root { --bg:#ffffff; --fg:#1b1d26; --muted:#5d6377; --accent:#5b3fd9; --card:#f4f2fd; }
+  @media (prefers-color-scheme: dark) { :root { --bg:#0e0f14; --fg:#e6e8ef; --muted:#9aa0b2; --accent:#9f8aff; --card:#171922; } }
+  body { margin:0; background:var(--bg); color:var(--fg); font:16px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  main { max-width:760px; margin:0 auto; padding:40px 20px 64px; }
+  h1 { font-size:2rem; line-height:1.2; margin:0 0 8px; }
+  h2 { font-size:1.2rem; margin:32px 0 8px; }
+  p, li { color:var(--fg); }
+  a { color:var(--accent); }
+  .hero { background:var(--card); border-radius:20px; padding:24px; margin-bottom:24px; }
+  .muted { color:var(--muted); }
+  ul { padding-left:22px; }
+</style>
+</head>
+<body><main>
+<h1>FoldTrigger privacy policy</h1>
+<p>Effective date: 27 October 2026</p>
+<p>FoldTrigger turns the back (cover) screen of a foldable phone, volume keys and on-screen buttons into triggers that press controls in your games. This policy explains what the app does with information on your phone.</p>
+<h2>The short version</h2>
+<p>FoldTrigger itself does not collect, sell or share any personal data. It has no accounts, no analytics and no crash reporting of its own, and everything it does with your games happens on your phone.</p>
+<p>The free version shows ads from Google AdMob, which collects some data to show and measure ads (see "Ads" below). Premium has no ads. Purchases go through Google Play.</p>
+<h2>Accessibility service</h2>
+<p>With your permission, FoldTrigger uses Android's Accessibility service only to:</p>
+<ul>
+<li>see which app is in front, so a game's profile switches on by itself;</li>
+<li>draw trigger buttons over games and on the back screen;</li>
+<li>let volume keys act as triggers, if you bind them;</li>
+<li>send the touch you set for a trigger, only when you press that trigger.</li>
+</ul>
+<p>The service is configured so that it cannot read what is on your screen: no text, messages or passwords. Which app is in front is used immediately to pick a profile and is not stored or sent anywhere. You can turn the service off at any time in Settings › Accessibility.</p>
+<h2>Data stored on your phone</h2>
+<ul>
+<li>Your game profiles (button positions, which game controls they press) and app settings.</li>
+<li>A key that lets FoldTrigger connect to your phone's own debugging service (see below). It is kept in storage that is never backed up.</li>
+</ul>
+<p>If you use Android's backup, your profiles and settings can be included in your device backup, which Google stores under your account. You can export and delete profiles in the app at any time. Uninstalling FoldTrigger removes everything it stored.</p>
+<h2>Ads (free version)</h2>
+<p>The free version shows rewarded video ads, which you choose to watch to add play time, from Google AdMob. Ads only play inside FoldTrigger, never over your games. To show, measure and protect ads against fraud, Google may collect your device's advertising ID, approximate location from your IP address, device and app information, and how you interact with ads. Google uses this as described in "How Google uses information from sites or apps that use our services": <a href="https://policies.google.com/technologies/partner-sites">https://policies.google.com/technologies/partner-sites</a></p>
+<p>Where the law requires it (for example in the EEA, the UK and Switzerland), FoldTrigger asks for your consent before any ad loads, and you can change your choice later under Play time › Ad privacy choices. You can reset or delete your advertising ID in your phone's settings. Premium users get no ads, and FoldTrigger then requests none.</p>
+<h2>Purchases</h2>
+<p>Premium is a one-time purchase handled by Google Play. FoldTrigger never sees your payment details; it only receives confirmation from Google Play that your account owns Premium.</p>
+<h2>Network</h2>
+<p>FoldTrigger's helper is started through your phone's own debugging service (USB debugging or Wireless debugging), which it reaches at the address 127.0.0.1 on the phone itself. This is one reason the app asks for the Internet and Wi-Fi permissions; the other is loading ads from Google in the free version. FoldTrigger has no servers of its own.</p>
+<h2>Permissions</h2>
+<ul>
+<li><strong>Accessibility service</strong>: described above.</li>
+<li><strong>Display over other apps</strong> (optional): only used if the system refuses an accessibility overlay on the back screen.</li>
+<li><strong>Notifications</strong>: to type a pairing code while the system's pairing dialog stays open, and to tell you when the helper stops.</li>
+<li><strong>Vibration</strong>: a tick when a back-screen trigger is pressed.</li>
+<li><strong>Internet, network and Wi-Fi state</strong>: to reach the phone's own debugging service, and to load ads in the free version.</li>
+<li><strong>Advertising ID</strong>: used by Google AdMob in the free version, as described under "Ads".</li>
+<li><strong>Google Play billing</strong>: to buy and restore Premium.</li>
+<li><strong>Write secure settings</strong> (granted only through debugging, never by default): lets FoldTrigger switch Wireless debugging on to start its helper, and switch its own touch-sending accessibility service on or off when you choose that method.</li>
+</ul>
+<h2>Children</h2>
+<p>FoldTrigger is not directed at children under 13.</p>
+<h2>Changes</h2>
+<p>If this policy changes, the new version will be published at the same address and in the app, with a new effective date.</p>
+<h2>Contact</h2>
+<p>Questions about this policy: <a href="mailto:foldtriggersupport@gmail.com">foldtriggersupport@gmail.com</a></p>
+</main></body>
+</html>
